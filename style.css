@@ -1,0 +1,260 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+ }
+
+
+ /* inizio struttura generale */
+
+.row{
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.container{
+    width: 100vw;
+    height: 85vh;
+}
+
+.up{
+    width: 85vw;
+}
+
+aside{
+    float: left;
+    background-color: black;
+    width: 15vw;
+    height: 85vh;
+}
+
+main{
+    float: left;
+    background-color: rgb(46, 36, 36);
+    width: 85vw;
+    height: 85vh;
+    color: white;
+}
+
+footer{
+    width: 100vw;
+    height: 15vh;
+}
+
+ /* fine struttura generale */
+
+
+ /* inizio aside */
+
+ aside{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 10px;
+}
+
+ #logo {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    height: 20%;
+}
+
+.librery{
+    height: 15%;
+}
+
+.playlist{
+    height: 50%;
+    padding-top: 20px;
+}
+
+.download{
+    height: 10%;
+}
+
+.fa-spotify{
+    padding-right: 5px;
+}
+
+.item{
+    padding: 5px 0px;
+}
+
+.librery .fas{
+    margin-right: 10px;    
+}
+
+.fa-plus{
+    background-color: grey;
+    padding: 5px 5px;
+}
+
+.playlist div{
+    margin: 10px 0px;
+}
+
+.download{
+    display: flex;
+    align-items: flex-end;
+}
+
+.fa-arrow-alt-circle-down{
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.border-bottom{
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.utente{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    height: 5%;
+}
+
+ /* fine aside */
+
+ /* inizio up */
+
+ .btn{
+    padding: 8px 32px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.up{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    height: 13vh;
+}
+
+/* fine up */
+
+/* inizio nav */
+
+
+nav{
+    text-align: center;
+    padding-top: 10px;
+}
+
+main nav ul li {
+    display: inline;
+    list-style: none;
+    color: black;
+    margin: 0px 20px;
+    padding: 5px 0px;
+}
+
+main nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* fine nav */
+
+/* inizio main */
+
+.box-main{
+    width: 85vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.background{
+    width: 13%;
+    height: 20vh;
+    background-color: red;
+    text-align: center;
+}
+
+.background img{
+    width: 100%;
+    height: 20vh;
+}
+
+/* fine main */
+
+
+/* inizio footer */
+
+footer{
+    background-color: rgb(70, 61, 61);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.box-centrale{
+    height: 15vh;
+    width: 60vw;
+}
+
+.box-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+    width: 15vw;
+}
+
+.box-img{
+    height: 7vh;
+    width: 5vw;
+}
+
+.box-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-item .far{
+    padding: 0px 3px;
+}
+
+.box-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+}
+
+.box-centrale{
+    align-items: center;
+    justify-content: center;
+}
+
+.box-centrale div{
+    padding: 15px 0px;
+}
+
+.fa-play-circle{
+    font-size: 25px;
+}
+
+.box-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    width: 25vw;
+}
