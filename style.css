@@ -16,31 +16,37 @@
 
 .container{
     width: 100vw;
-    height: 85vh;
+    height: 90vh;
 }
 
 .up{
-    width: 85vw;
+    width: 90vw;
+    background-color: rgba(0, 0, 0,);
+    opacity: 0.5;
 }
 
 aside{
     float: left;
     background-color: black;
-    width: 15vw;
-    height: 85vh;
+    width: 10vw;
+    height: 90vh;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 main{
     float: left;
     background-color: rgb(46, 36, 36);
-    width: 85vw;
-    height: 85vh;
+    width: 90vw;
+    height: 100%;
     color: white;
+    margin-left: 10vw;
 }
 
 footer{
     width: 100vw;
-    height: 15vh;
+    height: 10vh;
 }
 
  /* fine struttura generale */
@@ -63,17 +69,14 @@ footer{
 }
 
 .librery{
-    height: 15%;
+    height: 10%;
 }
 
 .playlist{
-    height: 50%;
+    height: 40%;
     padding-top: 20px;
 }
 
-.download{
-    height: 10%;
-}
 
 .fa-spotify{
     padding-right: 5px;
@@ -84,7 +87,7 @@ footer{
 }
 
 .librery .fas{
-    margin-right: 10px;    
+    margin-right: 10px;  
 }
 
 .fa-plus{
@@ -94,6 +97,14 @@ footer{
 
 .playlist div{
     margin: 10px 0px;
+}
+
+.start-side{
+    height: 70%;
+}
+
+.end-side{    
+    height: 30%;
 }
 
 .download{
@@ -109,14 +120,14 @@ footer{
 .border-bottom{
     border-bottom: 1px solid white;
     width: 100%;
-    padding: 10px 0px;
+    padding: 0px 0px;
 }
 
 .utente{
     display: flex;
     justify-content: flex-start;
-    padding-top: 10px;
-    height: 5%;
+    padding-top:  px;
+    height: %;
 }
 
  /* fine aside */
@@ -168,22 +179,21 @@ main nav ul li a{
 /* inizio main */
 
 .box-main{
-    width: 85vw;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .background{
-    width: 13%;
-    height: 20vh;
-    background-color: red;
+    width: calc(100% / 6);
     text-align: center;
+    padding: 15px 5px;
 }
 
 .background img{
     width: 100%;
-    height: 20vh;
+}
+
+.scroll{
+    overflow-y: ;
 }
 
 /* fine main */
@@ -193,9 +203,14 @@ main nav ul li a{
 
 footer{
     background-color: rgb(70, 61, 61);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     color: white;
+    z-index: 999;
 }
 
 .box-centrale{
